@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v3.2.3),
-    on November 19, 2019, at 16:01
+This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
+    on October 18, 2020, at 15:24
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -28,12 +28,14 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 
+
+
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-psychopyVersion = '3.2.3'
+psychopyVersion = '2020.1.3'
 expName = 'BLS_Clickable_Boxes'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
@@ -49,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\Jordan\\Documents\\Experiment Building\\6. Backwards Location Span Task\\BLS 10-1-19_lastrun.py',
+    originPath='C:\\Users\\jsful\\Documents\\GitHub\\6. Backwards Location Span Task\\BLS 10-1-19_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -309,7 +311,7 @@ score = 0
 wrongAnswer = 0
 
 resp_cue = visual.TextStim(win=win, name='resp_cue',
-    text='  SPACE\n    to\nSubmit',
+    text='SPACE\nto\nSubmit',
     font='Arial',
     pos=(0.6, 0.4), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -369,11 +371,13 @@ for thisIntro in Intro:
             exec('{} = thisIntro[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "Instructions"-------
+    continueRoutine = True
     # update component parameters for each repeat
     instr_text.setText(instr_txt)
     cont_text.setText(cont_txt)
     instr_key_resp.keys = []
     instr_key_resp.rt = []
+    _instr_key_resp_allKeys = []
     # keep track of which components have finished
     InstructionsComponents = [instr_text, cont_text, instr_key_resp]
     for thisComponent in InstructionsComponents:
@@ -388,7 +392,6 @@ for thisIntro in Intro:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     InstructionsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    continueRoutine = True
     
     # -------Run Routine "Instructions"-------
     while continueRoutine:
@@ -427,15 +430,15 @@ for thisIntro in Intro:
             win.timeOnFlip(instr_key_resp, 'tStartRefresh')  # time at next scr refresh
             instr_key_resp.status = STARTED
             # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(instr_key_resp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(instr_key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if instr_key_resp.status == STARTED and not waitOnFlip:
             theseKeys = instr_key_resp.getKeys(keyList=['space'], waitRelease=False)
-            if len(theseKeys):
-                theseKeys = theseKeys[0]  # at least one key was pressed
-                
-                # check for quit:
-                if "escape" == theseKeys:
-                    endExpNow = True
+            _instr_key_resp_allKeys.extend(theseKeys)
+            if len(_instr_key_resp_allKeys):
+                instr_key_resp.keys = _instr_key_resp_allKeys[-1].name  # just the last key pressed
+                instr_key_resp.rt = _instr_key_resp_allKeys[-1].rt
                 # a response ends the routine
                 continueRoutine = False
         
@@ -506,6 +509,7 @@ for thisTrial in Trials:
                 exec('{} = thisStimulus[paramName]'.format(paramName))
         
         # ------Prepare to start Routine "Stimulus"-------
+        continueRoutine = True
         routineTimer.add(1.500000)
         # update component parameters for each repeat
         Square.setPos(location)
@@ -523,7 +527,6 @@ for thisTrial in Trials:
         _timeToFirstFrame = win.getFutureFlipTime(clock="now")
         StimulusClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
         frameN = -1
-        continueRoutine = True
         
         # -------Run Routine "Stimulus"-------
         while continueRoutine and routineTimer.getTime() > 0:
@@ -593,9 +596,11 @@ for thisTrial in Trials:
     
     
     # ------Prepare to start Routine "Response"-------
+    continueRoutine = True
     # update component parameters for each repeat
     key_resp.keys = []
     key_resp.rt = []
+    _key_resp_allKeys = []
     # setup some python lists for storing info about the mouse
     mouse.x = []
     mouse.y = []
@@ -624,7 +629,6 @@ for thisTrial in Trials:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     ResponseClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    continueRoutine = True
     
     # -------Run Routine "Response"-------
     while continueRoutine:
@@ -654,15 +658,15 @@ for thisTrial in Trials:
             win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
             key_resp.status = STARTED
             # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if key_resp.status == STARTED and not waitOnFlip:
             theseKeys = key_resp.getKeys(keyList=['space'], waitRelease=False)
-            if len(theseKeys):
-                theseKeys = theseKeys[0]  # at least one key was pressed
-                
-                # check for quit:
-                if "escape" == theseKeys:
-                    endExpNow = True
+            _key_resp_allKeys.extend(theseKeys)
+            if len(_key_resp_allKeys):
+                key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed
+                key_resp.rt = _key_resp_allKeys[-1].rt
                 # a response ends the routine
                 continueRoutine = False
         
@@ -998,10 +1002,12 @@ for thisTrial in Trials:
     routineTimer.reset()
     
     # ------Prepare to start Routine "Ready"-------
+    continueRoutine = True
     # update component parameters for each repeat
     rdy_txt.setText(rdy_msg)
     rdy_key_resp.keys = []
     rdy_key_resp.rt = []
+    _rdy_key_resp_allKeys = []
     # keep track of which components have finished
     ReadyComponents = [rdy_txt, rdy_key_resp]
     for thisComponent in ReadyComponents:
@@ -1016,7 +1022,6 @@ for thisTrial in Trials:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     ReadyClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    continueRoutine = True
     
     # -------Run Routine "Ready"-------
     while continueRoutine:
@@ -1046,15 +1051,15 @@ for thisTrial in Trials:
             win.timeOnFlip(rdy_key_resp, 'tStartRefresh')  # time at next scr refresh
             rdy_key_resp.status = STARTED
             # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(rdy_key_resp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(rdy_key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if rdy_key_resp.status == STARTED and not waitOnFlip:
             theseKeys = rdy_key_resp.getKeys(keyList=['space'], waitRelease=False)
-            if len(theseKeys):
-                theseKeys = theseKeys[0]  # at least one key was pressed
-                
-                # check for quit:
-                if "escape" == theseKeys:
-                    endExpNow = True
+            _rdy_key_resp_allKeys.extend(theseKeys)
+            if len(_rdy_key_resp_allKeys):
+                rdy_key_resp.keys = _rdy_key_resp_allKeys[-1].name  # just the last key pressed
+                rdy_key_resp.rt = _rdy_key_resp_allKeys[-1].rt
                 # a response ends the routine
                 continueRoutine = False
         
@@ -1096,9 +1101,11 @@ Trials.saveAsExcel(filename + '.xlsx', sheetName='Trials',
     dataOut=['n','all_mean','all_std', 'all_raw'])
 
 # ------Prepare to start Routine "Thanks"-------
+continueRoutine = True
 # update component parameters for each repeat
 thx_key_resp.keys = []
 thx_key_resp.rt = []
+_thx_key_resp_allKeys = []
 # keep track of which components have finished
 ThanksComponents = [thx_text, thx_key_resp]
 for thisComponent in ThanksComponents:
@@ -1113,7 +1120,6 @@ t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 ThanksClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
-continueRoutine = True
 
 # -------Run Routine "Thanks"-------
 while continueRoutine:
@@ -1143,15 +1149,15 @@ while continueRoutine:
         win.timeOnFlip(thx_key_resp, 'tStartRefresh')  # time at next scr refresh
         thx_key_resp.status = STARTED
         # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(thx_key_resp.clock.reset)  # t=0 on next screen flip
         win.callOnFlip(thx_key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
     if thx_key_resp.status == STARTED and not waitOnFlip:
         theseKeys = thx_key_resp.getKeys(keyList=['space'], waitRelease=False)
-        if len(theseKeys):
-            theseKeys = theseKeys[0]  # at least one key was pressed
-            
-            # check for quit:
-            if "escape" == theseKeys:
-                endExpNow = True
+        _thx_key_resp_allKeys.extend(theseKeys)
+        if len(_thx_key_resp_allKeys):
+            thx_key_resp.keys = _thx_key_resp_allKeys[-1].name  # just the last key pressed
+            thx_key_resp.rt = _thx_key_resp_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
     
