@@ -1,0 +1,701 @@
+7.7708 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [2880, 1800]. Using actual size
+8.7667 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='hsv', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025DCCDF7EF0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025DCDE990F0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7668 	EXP 	window1: recordFrameIntervals = False
+8.9323 	EXP 	window1: recordFrameIntervals = True
+9.1159 	EXP 	window1: recordFrameIntervals = False
+9.4089 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.4127 	EXP 	Created cont_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cont_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.5350 	EXP 	Created Grid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Blank Grid.jpg', interpolate=True, mask=None, maskParams=None, name='Grid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+9.5430 	EXP 	Created Square = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([255.,   0.,   0.]), fillColorSpace='rgb255', fillRGB=array([255.,   0.,   0.]), interpolate=True, lineColor=array([255.,   0.,   0.]), lineColorSpace='rgb', lineRGB=array([255.,   0.,   0.]), lineWidth=1, name='Square', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6506 	EXP 	Created grid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Blank Grid.jpg', interpolate=True, mask=None, maskParams=None, name='grid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+9.6516 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([-0.386 ,  0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6524 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([-0.193 ,  0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6534 	EXP 	Created polygon_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.), pos=array([0.    , 0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6543 	EXP 	Created polygon_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-5.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.), pos=array([0.193 , 0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6551 	EXP 	Created polygon_5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-6.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.), pos=array([0.386 , 0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6560 	EXP 	Created polygon_6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-7.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_6', opacity=1.0, ori=array(0.), pos=array([-0.386  ,  0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6568 	EXP 	Created polygon_7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-8.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_7', opacity=1.0, ori=array(0.), pos=array([-0.193  ,  0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6576 	EXP 	Created polygon_8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-9.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_8', opacity=1.0, ori=array(0.), pos=array([0.     , 0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6584 	EXP 	Created polygon_9 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-10.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_9', opacity=1.0, ori=array(0.), pos=array([0.193  , 0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6592 	EXP 	Created polygon_10 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-11.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_10', opacity=1.0, ori=array(0.), pos=array([0.386  , 0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6601 	EXP 	Created polygon_11 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-12.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_11', opacity=1.0, ori=array(0.), pos=array([-0.386,  0.   ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6609 	EXP 	Created polygon_12 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-13.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_12', opacity=1.0, ori=array(0.), pos=array([-0.193,  0.   ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6617 	EXP 	Created polygon_13 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-14.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_13', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6625 	EXP 	Created polygon_14 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-15.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_14', opacity=1.0, ori=array(0.), pos=array([0.193, 0.   ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6632 	EXP 	Created polygon_15 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-16.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_15', opacity=1.0, ori=array(0.), pos=array([0.386, 0.   ]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6641 	EXP 	Created polygon_16 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-17.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_16', opacity=1.0, ori=array(0.), pos=array([-0.386  , -0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6649 	EXP 	Created polygon_17 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-18.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_17', opacity=1.0, ori=array(0.), pos=array([-0.193  , -0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6656 	EXP 	Created polygon_18 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-19.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_18', opacity=1.0, ori=array(0.), pos=array([ 0.     , -0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6664 	EXP 	Created polygon_19 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-20.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_19', opacity=1.0, ori=array(0.), pos=array([ 0.193  , -0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6672 	EXP 	Created polygon_20 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-21.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_20', opacity=1.0, ori=array(0.), pos=array([ 0.386  , -0.19415]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6679 	EXP 	Created polygon_21 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-22.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_21', opacity=1.0, ori=array(0.), pos=array([-0.386 , -0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6687 	EXP 	Created polygon_22 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-23.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_22', opacity=1.0, ori=array(0.), pos=array([-0.193 , -0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6695 	EXP 	Created polygon_23 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-24.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_23', opacity=1.0, ori=array(0.), pos=array([ 0.    , -0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6702 	EXP 	Created polygon_24 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-25.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_24', opacity=1.0, ori=array(0.), pos=array([ 0.193 , -0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6710 	EXP 	Created polygon_25 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-26.0, fillColor='white', fillColorSpace='named', fillRGB=array([255., 255., 255.]), interpolate=True, lineColor='white', lineColorSpace='named', lineRGB=array([255., 255., 255.]), lineWidth=1, name='polygon_25', opacity=1.0, ori=array(0.), pos=array([ 0.386 , -0.3875]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+9.6752 	EXP 	Created rdy_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rdy_txt', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.7161 	EXP 	Created thx_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thx_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.7477 	EXP 	Imported BLS_Instructions.xlsx as conditions, 4 conditions, 3 params
+9.7479 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+9.7481 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('instr_txt', 'On this task, you will see a grid and some squares representing locations.\n\nThese locations will be presented one-by-one.'), ('cont_txt', 'Press SPACE for more instructions.')])
+9.8993 	EXP 	instr_text: text = 'On this task, you will see a grid and some squares representing locations.\n\nThese locations will be presented one-by-one.'
+9.8993 	EXP 	cont_text: text = 'Press SPACE for more instructions.'
+9.8993 	EXP 	instr_text: autoDraw = True
+9.8993 	EXP 	cont_text: autoDraw = True
+31.3542 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('instr_txt', 'When you have seen all the locations, \nclick the locations that you saw starting with the last location and continuing in REVERSE ORDER. '), ('cont_txt', 'Press SPACE for more instructions.')])
+31.4532 	DATA 	Keypress: space
+31.4647 	EXP 	instr_text: autoDraw = False
+31.4647 	EXP 	cont_text: autoDraw = False
+31.4647 	EXP 	instr_text: text = 'When you have seen all the locations, \nclick the locations that you saw starting with the last location and continuing in REVERSE ORDER. '
+31.4647 	EXP 	cont_text: text = 'Press SPACE for more instructions.'
+31.4647 	EXP 	instr_text: autoDraw = True
+31.4647 	EXP 	cont_text: autoDraw = True
+66.1195 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('instr_txt', 'So, if there were 2 locations\nyou would click the second location, then the first location.'), ('cont_txt', 'Press SPACE for more instructions.')])
+66.1969 	DATA 	Keypress: space
+66.2139 	EXP 	instr_text: autoDraw = False
+66.2139 	EXP 	cont_text: autoDraw = False
+66.2139 	EXP 	instr_text: text = 'So, if there were 2 locations\nyou would click the second location, then the first location.'
+66.2139 	EXP 	cont_text: text = 'Press SPACE for more instructions.'
+66.2139 	EXP 	instr_text: autoDraw = True
+66.2139 	EXP 	cont_text: autoDraw = True
+75.6860 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 3), ('instr_txt', 'Again, click the boxes in reverse order.\n\nThen press SPACE to submit your answer.'), ('cont_txt', 'Press SPACE to begin.')])
+75.7697 	DATA 	Keypress: space
+75.7807 	EXP 	instr_text: autoDraw = False
+75.7807 	EXP 	cont_text: autoDraw = False
+75.7807 	EXP 	instr_text: text = 'Again, click the boxes in reverse order.\n\nThen press SPACE to submit your answer.'
+75.7807 	EXP 	cont_text: text = 'Press SPACE to begin.'
+75.7807 	EXP 	instr_text: autoDraw = True
+75.7807 	EXP 	cont_text: autoDraw = True
+82.0924 	EXP 	Imported BLS_Trials.xlsx as conditions, 32 conditions, 5 params
+82.0931 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+82.0940 	EXP 	New trial (rep=0, index=0): OrderedDict([('Running_Trial_Num', 1), ('trial_length', 2), ('rows', '0, 1'), ('correct_seq', ['polygon_18', 'polygon_10']), ('rdy_msg', 'Press SPACE to begin the next trial.')])
+82.1609 	EXP 	Imported BLS_Stimuli.xlsx as conditions, 2 conditions, 6 params
+82.1613 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+82.1618 	EXP 	New trial (rep=0, index=0): OrderedDict([('span', 2), ('trial', 1), ('stimulus', 1), ('square', 10), ('location', [0.39, 0.195]), ('correct', 18)])
+82.1815 	DATA 	Keypress: space
+82.2142 	EXP 	instr_text: autoDraw = False
+82.2142 	EXP 	cont_text: autoDraw = False
+82.2142 	EXP 	Square: pos = array([0.39 , 0.195])
+82.2142 	EXP 	Grid: autoDraw = True
+82.2142 	EXP 	Square: autoDraw = True
+83.5647 	EXP 	New trial (rep=0, index=1): OrderedDict([('span', 2), ('trial', 1), ('stimulus', 2), ('square', 18), ('location', [0, -0.195]), ('correct', 10)])
+83.5806 	EXP 	Grid: autoDraw = False
+83.5806 	EXP 	Square: autoDraw = False
+83.5806 	EXP 	Square: pos = array([ 0.   , -0.195])
+83.5806 	EXP 	Grid: autoDraw = True
+83.5806 	EXP 	Square: autoDraw = True
+85.1473 	EXP 	Grid: autoDraw = False
+85.1473 	EXP 	Square: autoDraw = False
+85.1473 	EXP 	polygon: fillColor = 'white'
+85.1473 	EXP 	polygon: lineColor = 'white'
+85.1473 	EXP 	polygon: color = 'white'
+85.1473 	EXP 	polygon_2: fillColor = 'white'
+85.1473 	EXP 	polygon_2: lineColor = 'white'
+85.1473 	EXP 	polygon_2: color = 'white'
+85.1473 	EXP 	polygon_3: fillColor = 'white'
+85.1473 	EXP 	polygon_3: lineColor = 'white'
+85.1473 	EXP 	polygon_3: color = 'white'
+85.1473 	EXP 	polygon_4: fillColor = 'white'
+85.1473 	EXP 	polygon_4: lineColor = 'white'
+85.1473 	EXP 	polygon_4: color = 'white'
+85.1473 	EXP 	polygon_5: fillColor = 'white'
+85.1473 	EXP 	polygon_5: lineColor = 'white'
+85.1473 	EXP 	polygon_5: color = 'white'
+85.1473 	EXP 	polygon_6: fillColor = 'white'
+85.1473 	EXP 	polygon_6: lineColor = 'white'
+85.1473 	EXP 	polygon_6: color = 'white'
+85.1473 	EXP 	polygon_7: fillColor = 'white'
+85.1473 	EXP 	polygon_7: lineColor = 'white'
+85.1473 	EXP 	polygon_7: color = 'white'
+85.1473 	EXP 	polygon_8: fillColor = 'white'
+85.1473 	EXP 	polygon_8: lineColor = 'white'
+85.1473 	EXP 	polygon_8: color = 'white'
+85.1473 	EXP 	polygon_9: fillColor = 'white'
+85.1473 	EXP 	polygon_9: lineColor = 'white'
+85.1473 	EXP 	polygon_9: color = 'white'
+85.1473 	EXP 	polygon_10: fillColor = 'white'
+85.1473 	EXP 	polygon_10: lineColor = 'white'
+85.1473 	EXP 	polygon_10: color = 'white'
+85.1473 	EXP 	polygon_11: fillColor = 'white'
+85.1473 	EXP 	polygon_11: lineColor = 'white'
+85.1473 	EXP 	polygon_11: color = 'white'
+85.1473 	EXP 	polygon_12: fillColor = 'white'
+85.1473 	EXP 	polygon_12: lineColor = 'white'
+85.1473 	EXP 	polygon_12: color = 'white'
+85.1473 	EXP 	polygon_13: fillColor = 'white'
+85.1473 	EXP 	polygon_13: lineColor = 'white'
+85.1473 	EXP 	polygon_13: color = 'white'
+85.1473 	EXP 	polygon_14: fillColor = 'white'
+85.1473 	EXP 	polygon_14: lineColor = 'white'
+85.1473 	EXP 	polygon_14: color = 'white'
+85.1473 	EXP 	polygon_15: fillColor = 'white'
+85.1473 	EXP 	polygon_15: lineColor = 'white'
+85.1473 	EXP 	polygon_15: color = 'white'
+85.1473 	EXP 	polygon_16: fillColor = 'white'
+85.1473 	EXP 	polygon_16: lineColor = 'white'
+85.1473 	EXP 	polygon_16: color = 'white'
+85.1473 	EXP 	polygon_17: fillColor = 'white'
+85.1473 	EXP 	polygon_17: lineColor = 'white'
+85.1473 	EXP 	polygon_17: color = 'white'
+85.1473 	EXP 	polygon_18: fillColor = 'white'
+85.1473 	EXP 	polygon_18: lineColor = 'white'
+85.1473 	EXP 	polygon_18: color = 'white'
+85.1473 	EXP 	polygon_19: fillColor = 'white'
+85.1473 	EXP 	polygon_19: lineColor = 'white'
+85.1473 	EXP 	polygon_19: color = 'white'
+85.1473 	EXP 	polygon_20: fillColor = 'white'
+85.1473 	EXP 	polygon_20: lineColor = 'white'
+85.1473 	EXP 	polygon_20: color = 'white'
+85.1473 	EXP 	polygon_21: fillColor = 'white'
+85.1473 	EXP 	polygon_21: lineColor = 'white'
+85.1473 	EXP 	polygon_21: color = 'white'
+85.1473 	EXP 	polygon_22: fillColor = 'white'
+85.1473 	EXP 	polygon_22: lineColor = 'white'
+85.1473 	EXP 	polygon_22: color = 'white'
+85.1473 	EXP 	polygon_23: fillColor = 'white'
+85.1473 	EXP 	polygon_23: lineColor = 'white'
+85.1473 	EXP 	polygon_23: color = 'white'
+85.1473 	EXP 	polygon_24: fillColor = 'white'
+85.1473 	EXP 	polygon_24: lineColor = 'white'
+85.1473 	EXP 	polygon_24: color = 'white'
+85.1473 	EXP 	polygon_25: fillColor = 'white'
+85.1473 	EXP 	polygon_25: lineColor = 'white'
+85.1473 	EXP 	polygon_25: color = 'white'
+85.1473 	EXP 	grid: autoDraw = True
+85.1473 	EXP 	polygon: autoDraw = True
+85.1473 	EXP 	polygon_2: autoDraw = True
+85.1473 	EXP 	polygon_3: autoDraw = True
+85.1473 	EXP 	polygon_4: autoDraw = True
+85.1473 	EXP 	polygon_5: autoDraw = True
+85.1473 	EXP 	polygon_6: autoDraw = True
+85.1473 	EXP 	polygon_7: autoDraw = True
+85.1473 	EXP 	polygon_8: autoDraw = True
+85.1473 	EXP 	polygon_9: autoDraw = True
+85.1473 	EXP 	polygon_10: autoDraw = True
+85.1473 	EXP 	polygon_11: autoDraw = True
+85.1473 	EXP 	polygon_12: autoDraw = True
+85.1473 	EXP 	polygon_13: autoDraw = True
+85.1473 	EXP 	polygon_14: autoDraw = True
+85.1473 	EXP 	polygon_15: autoDraw = True
+85.1473 	EXP 	polygon_16: autoDraw = True
+85.1473 	EXP 	polygon_17: autoDraw = True
+85.1473 	EXP 	polygon_18: autoDraw = True
+85.1473 	EXP 	polygon_19: autoDraw = True
+85.1473 	EXP 	polygon_20: autoDraw = True
+85.1473 	EXP 	polygon_21: autoDraw = True
+85.1473 	EXP 	polygon_22: autoDraw = True
+85.1473 	EXP 	polygon_23: autoDraw = True
+85.1473 	EXP 	polygon_24: autoDraw = True
+85.1473 	EXP 	polygon_25: autoDraw = True
+87.8030 	DATA 	Mouse: Left button down, pos=(1449,624)
+87.8448 	EXP 	polygon_18: fillColor = 'black'
+87.8448 	EXP 	polygon_18: lineColor = 'black'
+87.8448 	EXP 	polygon_18: color = 'black'
+88.1126 	DATA 	Mouse:  Left button up, pos=(1449,624)
+89.1808 	DATA 	Mouse: Left button down, pos=(2126,1303)
+89.2447 	EXP 	polygon_10: fillColor = 'black'
+89.2447 	EXP 	polygon_10: lineColor = 'black'
+89.2447 	EXP 	polygon_10: color = 'black'
+89.5134 	DATA 	Mouse:  Left button up, pos=(2126,1304)
+91.9136 	DATA 	Keypress: space
+91.9946 	EXP 	grid: autoDraw = False
+91.9946 	EXP 	polygon: autoDraw = False
+91.9946 	EXP 	polygon_2: autoDraw = False
+91.9946 	EXP 	polygon_3: autoDraw = False
+91.9946 	EXP 	polygon_4: autoDraw = False
+91.9946 	EXP 	polygon_5: autoDraw = False
+91.9946 	EXP 	polygon_6: autoDraw = False
+91.9946 	EXP 	polygon_7: autoDraw = False
+91.9946 	EXP 	polygon_8: autoDraw = False
+91.9946 	EXP 	polygon_9: autoDraw = False
+91.9946 	EXP 	polygon_10: autoDraw = False
+91.9946 	EXP 	polygon_11: autoDraw = False
+91.9946 	EXP 	polygon_12: autoDraw = False
+91.9946 	EXP 	polygon_13: autoDraw = False
+91.9946 	EXP 	polygon_14: autoDraw = False
+91.9946 	EXP 	polygon_15: autoDraw = False
+91.9946 	EXP 	polygon_16: autoDraw = False
+91.9946 	EXP 	polygon_17: autoDraw = False
+91.9946 	EXP 	polygon_18: autoDraw = False
+91.9946 	EXP 	polygon_19: autoDraw = False
+91.9946 	EXP 	polygon_20: autoDraw = False
+91.9946 	EXP 	polygon_21: autoDraw = False
+91.9946 	EXP 	polygon_22: autoDraw = False
+91.9946 	EXP 	polygon_23: autoDraw = False
+91.9946 	EXP 	polygon_24: autoDraw = False
+91.9946 	EXP 	polygon_25: autoDraw = False
+91.9946 	EXP 	rdy_txt: text = 'Press SPACE to begin the next trial.'
+91.9946 	EXP 	rdy_txt: autoDraw = True
+95.2353 	EXP 	New trial (rep=0, index=1): OrderedDict([('Running_Trial_Num', 2), ('trial_length', 2), ('rows', '2, 3'), ('correct_seq', ['polygon_19', 'polygon_2']), ('rdy_msg', 'Press SPACE to begin the next trial.')])
+95.2939 	EXP 	Imported BLS_Stimuli.xlsx as conditions, 2 conditions, 6 params
+95.2943 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+95.2947 	EXP 	New trial (rep=0, index=0): OrderedDict([('span', 2), ('trial', 2), ('stimulus', 1), ('square', 2), ('location', [-0.195, 0.39]), ('correct', 19)])
+95.2981 	DATA 	Keypress: space
+95.3134 	EXP 	rdy_txt: autoDraw = False
+95.3134 	EXP 	Square: pos = array([-0.195,  0.39 ])
+95.3134 	EXP 	Grid: autoDraw = True
+95.3134 	EXP 	Square: autoDraw = True
+96.7477 	EXP 	New trial (rep=0, index=1): OrderedDict([('span', 2), ('trial', 2), ('stimulus', 2), ('square', 19), ('location', [0.195, -0.195]), ('correct', 2)])
+96.7804 	EXP 	Grid: autoDraw = False
+96.7804 	EXP 	Square: autoDraw = False
+96.7804 	EXP 	Square: pos = array([ 0.195, -0.195])
+96.7804 	EXP 	Grid: autoDraw = True
+96.7804 	EXP 	Square: autoDraw = True
+98.2969 	EXP 	Grid: autoDraw = False
+98.2969 	EXP 	Square: autoDraw = False
+98.2969 	EXP 	polygon: fillColor = 'white'
+98.2969 	EXP 	polygon: lineColor = 'white'
+98.2969 	EXP 	polygon: color = 'white'
+98.2969 	EXP 	polygon_2: fillColor = 'white'
+98.2969 	EXP 	polygon_2: lineColor = 'white'
+98.2969 	EXP 	polygon_2: color = 'white'
+98.2969 	EXP 	polygon_3: fillColor = 'white'
+98.2969 	EXP 	polygon_3: lineColor = 'white'
+98.2969 	EXP 	polygon_3: color = 'white'
+98.2969 	EXP 	polygon_4: fillColor = 'white'
+98.2969 	EXP 	polygon_4: lineColor = 'white'
+98.2969 	EXP 	polygon_4: color = 'white'
+98.2969 	EXP 	polygon_5: fillColor = 'white'
+98.2969 	EXP 	polygon_5: lineColor = 'white'
+98.2969 	EXP 	polygon_5: color = 'white'
+98.2969 	EXP 	polygon_6: fillColor = 'white'
+98.2969 	EXP 	polygon_6: lineColor = 'white'
+98.2969 	EXP 	polygon_6: color = 'white'
+98.2969 	EXP 	polygon_7: fillColor = 'white'
+98.2969 	EXP 	polygon_7: lineColor = 'white'
+98.2969 	EXP 	polygon_7: color = 'white'
+98.2969 	EXP 	polygon_8: fillColor = 'white'
+98.2969 	EXP 	polygon_8: lineColor = 'white'
+98.2969 	EXP 	polygon_8: color = 'white'
+98.2969 	EXP 	polygon_9: fillColor = 'white'
+98.2969 	EXP 	polygon_9: lineColor = 'white'
+98.2969 	EXP 	polygon_9: color = 'white'
+98.2969 	EXP 	polygon_10: fillColor = 'white'
+98.2969 	EXP 	polygon_10: lineColor = 'white'
+98.2969 	EXP 	polygon_10: color = 'white'
+98.2969 	EXP 	polygon_11: fillColor = 'white'
+98.2969 	EXP 	polygon_11: lineColor = 'white'
+98.2969 	EXP 	polygon_11: color = 'white'
+98.2969 	EXP 	polygon_12: fillColor = 'white'
+98.2969 	EXP 	polygon_12: lineColor = 'white'
+98.2969 	EXP 	polygon_12: color = 'white'
+98.2969 	EXP 	polygon_13: fillColor = 'white'
+98.2969 	EXP 	polygon_13: lineColor = 'white'
+98.2969 	EXP 	polygon_13: color = 'white'
+98.2969 	EXP 	polygon_14: fillColor = 'white'
+98.2969 	EXP 	polygon_14: lineColor = 'white'
+98.2969 	EXP 	polygon_14: color = 'white'
+98.2969 	EXP 	polygon_15: fillColor = 'white'
+98.2969 	EXP 	polygon_15: lineColor = 'white'
+98.2969 	EXP 	polygon_15: color = 'white'
+98.2969 	EXP 	polygon_16: fillColor = 'white'
+98.2969 	EXP 	polygon_16: lineColor = 'white'
+98.2969 	EXP 	polygon_16: color = 'white'
+98.2969 	EXP 	polygon_17: fillColor = 'white'
+98.2969 	EXP 	polygon_17: lineColor = 'white'
+98.2969 	EXP 	polygon_17: color = 'white'
+98.2969 	EXP 	polygon_18: fillColor = 'white'
+98.2969 	EXP 	polygon_18: lineColor = 'white'
+98.2969 	EXP 	polygon_18: color = 'white'
+98.2969 	EXP 	polygon_19: fillColor = 'white'
+98.2969 	EXP 	polygon_19: lineColor = 'white'
+98.2969 	EXP 	polygon_19: color = 'white'
+98.2969 	EXP 	polygon_20: fillColor = 'white'
+98.2969 	EXP 	polygon_20: lineColor = 'white'
+98.2969 	EXP 	polygon_20: color = 'white'
+98.2969 	EXP 	polygon_21: fillColor = 'white'
+98.2969 	EXP 	polygon_21: lineColor = 'white'
+98.2969 	EXP 	polygon_21: color = 'white'
+98.2969 	EXP 	polygon_22: fillColor = 'white'
+98.2969 	EXP 	polygon_22: lineColor = 'white'
+98.2969 	EXP 	polygon_22: color = 'white'
+98.2969 	EXP 	polygon_23: fillColor = 'white'
+98.2969 	EXP 	polygon_23: lineColor = 'white'
+98.2969 	EXP 	polygon_23: color = 'white'
+98.2969 	EXP 	polygon_24: fillColor = 'white'
+98.2969 	EXP 	polygon_24: lineColor = 'white'
+98.2969 	EXP 	polygon_24: color = 'white'
+98.2969 	EXP 	polygon_25: fillColor = 'white'
+98.2969 	EXP 	polygon_25: lineColor = 'white'
+98.2969 	EXP 	polygon_25: color = 'white'
+98.2969 	EXP 	grid: autoDraw = True
+98.2969 	EXP 	polygon: autoDraw = True
+98.2969 	EXP 	polygon_2: autoDraw = True
+98.2969 	EXP 	polygon_3: autoDraw = True
+98.2969 	EXP 	polygon_4: autoDraw = True
+98.2969 	EXP 	polygon_5: autoDraw = True
+98.2969 	EXP 	polygon_6: autoDraw = True
+98.2969 	EXP 	polygon_7: autoDraw = True
+98.2969 	EXP 	polygon_8: autoDraw = True
+98.2969 	EXP 	polygon_9: autoDraw = True
+98.2969 	EXP 	polygon_10: autoDraw = True
+98.2969 	EXP 	polygon_11: autoDraw = True
+98.2969 	EXP 	polygon_12: autoDraw = True
+98.2969 	EXP 	polygon_13: autoDraw = True
+98.2969 	EXP 	polygon_14: autoDraw = True
+98.2969 	EXP 	polygon_15: autoDraw = True
+98.2969 	EXP 	polygon_16: autoDraw = True
+98.2969 	EXP 	polygon_17: autoDraw = True
+98.2969 	EXP 	polygon_18: autoDraw = True
+98.2969 	EXP 	polygon_19: autoDraw = True
+98.2969 	EXP 	polygon_20: autoDraw = True
+98.2969 	EXP 	polygon_21: autoDraw = True
+98.2969 	EXP 	polygon_22: autoDraw = True
+98.2969 	EXP 	polygon_23: autoDraw = True
+98.2969 	EXP 	polygon_24: autoDraw = True
+98.2969 	EXP 	polygon_25: autoDraw = True
+101.2970 	DATA 	Mouse: Left button down, pos=(1778,601)
+101.3445 	EXP 	polygon_19: fillColor = 'black'
+101.3445 	EXP 	polygon_19: lineColor = 'black'
+101.3445 	EXP 	polygon_19: color = 'black'
+101.5693 	DATA 	Mouse:  Left button up, pos=(1778,601)
+102.6633 	DATA 	Mouse: Left button down, pos=(1052,1609)
+102.7110 	EXP 	polygon_2: fillColor = 'black'
+102.7110 	EXP 	polygon_2: lineColor = 'black'
+102.7110 	EXP 	polygon_2: color = 'black'
+102.9132 	DATA 	Mouse:  Left button up, pos=(1052,1609)
+106.0638 	DATA 	Keypress: space
+106.0943 	EXP 	grid: autoDraw = False
+106.0943 	EXP 	polygon: autoDraw = False
+106.0943 	EXP 	polygon_2: autoDraw = False
+106.0943 	EXP 	polygon_3: autoDraw = False
+106.0943 	EXP 	polygon_4: autoDraw = False
+106.0943 	EXP 	polygon_5: autoDraw = False
+106.0943 	EXP 	polygon_6: autoDraw = False
+106.0943 	EXP 	polygon_7: autoDraw = False
+106.0943 	EXP 	polygon_8: autoDraw = False
+106.0943 	EXP 	polygon_9: autoDraw = False
+106.0943 	EXP 	polygon_10: autoDraw = False
+106.0943 	EXP 	polygon_11: autoDraw = False
+106.0943 	EXP 	polygon_12: autoDraw = False
+106.0943 	EXP 	polygon_13: autoDraw = False
+106.0943 	EXP 	polygon_14: autoDraw = False
+106.0943 	EXP 	polygon_15: autoDraw = False
+106.0943 	EXP 	polygon_16: autoDraw = False
+106.0943 	EXP 	polygon_17: autoDraw = False
+106.0943 	EXP 	polygon_18: autoDraw = False
+106.0943 	EXP 	polygon_19: autoDraw = False
+106.0943 	EXP 	polygon_20: autoDraw = False
+106.0943 	EXP 	polygon_21: autoDraw = False
+106.0943 	EXP 	polygon_22: autoDraw = False
+106.0943 	EXP 	polygon_23: autoDraw = False
+106.0943 	EXP 	polygon_24: autoDraw = False
+106.0943 	EXP 	polygon_25: autoDraw = False
+106.0943 	EXP 	rdy_txt: text = 'Press SPACE to begin the next trial.'
+106.0943 	EXP 	rdy_txt: autoDraw = True
+266.8311 	EXP 	New trial (rep=0, index=2): OrderedDict([('Running_Trial_Num', 3), ('trial_length', 2), ('rows', '4, 5'), ('correct_seq', ['polygon_21', 'polygon_8']), ('rdy_msg', 'Press SPACE to begin the next trial.')])
+266.8929 	EXP 	Imported BLS_Stimuli.xlsx as conditions, 2 conditions, 6 params
+266.8933 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+266.8937 	EXP 	New trial (rep=0, index=0): OrderedDict([('span', 2), ('trial', 3), ('stimulus', 1), ('square', 8), ('location', [0, 0.195]), ('correct', 21)])
+266.8972 	DATA 	Keypress: space
+266.9100 	EXP 	rdy_txt: autoDraw = False
+266.9100 	EXP 	Square: pos = array([0.   , 0.195])
+266.9100 	EXP 	Grid: autoDraw = True
+266.9100 	EXP 	Square: autoDraw = True
+268.3442 	EXP 	New trial (rep=0, index=1): OrderedDict([('span', 2), ('trial', 3), ('stimulus', 2), ('square', 21), ('location', [-0.39, -0.39]), ('correct', 8)])
+268.3769 	EXP 	Grid: autoDraw = False
+268.3769 	EXP 	Square: autoDraw = False
+268.3769 	EXP 	Square: pos = array([-0.39, -0.39])
+268.3769 	EXP 	Grid: autoDraw = True
+268.3769 	EXP 	Square: autoDraw = True
+269.8935 	EXP 	Grid: autoDraw = False
+269.8935 	EXP 	Square: autoDraw = False
+269.8935 	EXP 	polygon: fillColor = 'white'
+269.8935 	EXP 	polygon: lineColor = 'white'
+269.8935 	EXP 	polygon: color = 'white'
+269.8935 	EXP 	polygon_2: fillColor = 'white'
+269.8935 	EXP 	polygon_2: lineColor = 'white'
+269.8935 	EXP 	polygon_2: color = 'white'
+269.8935 	EXP 	polygon_3: fillColor = 'white'
+269.8935 	EXP 	polygon_3: lineColor = 'white'
+269.8935 	EXP 	polygon_3: color = 'white'
+269.8935 	EXP 	polygon_4: fillColor = 'white'
+269.8935 	EXP 	polygon_4: lineColor = 'white'
+269.8935 	EXP 	polygon_4: color = 'white'
+269.8935 	EXP 	polygon_5: fillColor = 'white'
+269.8935 	EXP 	polygon_5: lineColor = 'white'
+269.8935 	EXP 	polygon_5: color = 'white'
+269.8935 	EXP 	polygon_6: fillColor = 'white'
+269.8935 	EXP 	polygon_6: lineColor = 'white'
+269.8935 	EXP 	polygon_6: color = 'white'
+269.8935 	EXP 	polygon_7: fillColor = 'white'
+269.8935 	EXP 	polygon_7: lineColor = 'white'
+269.8935 	EXP 	polygon_7: color = 'white'
+269.8935 	EXP 	polygon_8: fillColor = 'white'
+269.8935 	EXP 	polygon_8: lineColor = 'white'
+269.8935 	EXP 	polygon_8: color = 'white'
+269.8935 	EXP 	polygon_9: fillColor = 'white'
+269.8935 	EXP 	polygon_9: lineColor = 'white'
+269.8935 	EXP 	polygon_9: color = 'white'
+269.8935 	EXP 	polygon_10: fillColor = 'white'
+269.8935 	EXP 	polygon_10: lineColor = 'white'
+269.8935 	EXP 	polygon_10: color = 'white'
+269.8935 	EXP 	polygon_11: fillColor = 'white'
+269.8935 	EXP 	polygon_11: lineColor = 'white'
+269.8935 	EXP 	polygon_11: color = 'white'
+269.8935 	EXP 	polygon_12: fillColor = 'white'
+269.8935 	EXP 	polygon_12: lineColor = 'white'
+269.8935 	EXP 	polygon_12: color = 'white'
+269.8935 	EXP 	polygon_13: fillColor = 'white'
+269.8935 	EXP 	polygon_13: lineColor = 'white'
+269.8935 	EXP 	polygon_13: color = 'white'
+269.8935 	EXP 	polygon_14: fillColor = 'white'
+269.8935 	EXP 	polygon_14: lineColor = 'white'
+269.8935 	EXP 	polygon_14: color = 'white'
+269.8935 	EXP 	polygon_15: fillColor = 'white'
+269.8935 	EXP 	polygon_15: lineColor = 'white'
+269.8935 	EXP 	polygon_15: color = 'white'
+269.8935 	EXP 	polygon_16: fillColor = 'white'
+269.8935 	EXP 	polygon_16: lineColor = 'white'
+269.8935 	EXP 	polygon_16: color = 'white'
+269.8935 	EXP 	polygon_17: fillColor = 'white'
+269.8935 	EXP 	polygon_17: lineColor = 'white'
+269.8935 	EXP 	polygon_17: color = 'white'
+269.8935 	EXP 	polygon_18: fillColor = 'white'
+269.8935 	EXP 	polygon_18: lineColor = 'white'
+269.8935 	EXP 	polygon_18: color = 'white'
+269.8935 	EXP 	polygon_19: fillColor = 'white'
+269.8935 	EXP 	polygon_19: lineColor = 'white'
+269.8935 	EXP 	polygon_19: color = 'white'
+269.8935 	EXP 	polygon_20: fillColor = 'white'
+269.8935 	EXP 	polygon_20: lineColor = 'white'
+269.8935 	EXP 	polygon_20: color = 'white'
+269.8935 	EXP 	polygon_21: fillColor = 'white'
+269.8935 	EXP 	polygon_21: lineColor = 'white'
+269.8935 	EXP 	polygon_21: color = 'white'
+269.8935 	EXP 	polygon_22: fillColor = 'white'
+269.8935 	EXP 	polygon_22: lineColor = 'white'
+269.8935 	EXP 	polygon_22: color = 'white'
+269.8935 	EXP 	polygon_23: fillColor = 'white'
+269.8935 	EXP 	polygon_23: lineColor = 'white'
+269.8935 	EXP 	polygon_23: color = 'white'
+269.8935 	EXP 	polygon_24: fillColor = 'white'
+269.8935 	EXP 	polygon_24: lineColor = 'white'
+269.8935 	EXP 	polygon_24: color = 'white'
+269.8935 	EXP 	polygon_25: fillColor = 'white'
+269.8935 	EXP 	polygon_25: lineColor = 'white'
+269.8935 	EXP 	polygon_25: color = 'white'
+269.8935 	EXP 	grid: autoDraw = True
+269.8935 	EXP 	polygon: autoDraw = True
+269.8935 	EXP 	polygon_2: autoDraw = True
+269.8935 	EXP 	polygon_3: autoDraw = True
+269.8935 	EXP 	polygon_4: autoDraw = True
+269.8935 	EXP 	polygon_5: autoDraw = True
+269.8935 	EXP 	polygon_6: autoDraw = True
+269.8935 	EXP 	polygon_7: autoDraw = True
+269.8935 	EXP 	polygon_8: autoDraw = True
+269.8935 	EXP 	polygon_9: autoDraw = True
+269.8935 	EXP 	polygon_10: autoDraw = True
+269.8935 	EXP 	polygon_11: autoDraw = True
+269.8935 	EXP 	polygon_12: autoDraw = True
+269.8935 	EXP 	polygon_13: autoDraw = True
+269.8935 	EXP 	polygon_14: autoDraw = True
+269.8935 	EXP 	polygon_15: autoDraw = True
+269.8935 	EXP 	polygon_16: autoDraw = True
+269.8935 	EXP 	polygon_17: autoDraw = True
+269.8935 	EXP 	polygon_18: autoDraw = True
+269.8935 	EXP 	polygon_19: autoDraw = True
+269.8935 	EXP 	polygon_20: autoDraw = True
+269.8935 	EXP 	polygon_21: autoDraw = True
+269.8935 	EXP 	polygon_22: autoDraw = True
+269.8935 	EXP 	polygon_23: autoDraw = True
+269.8935 	EXP 	polygon_24: autoDraw = True
+269.8935 	EXP 	polygon_25: autoDraw = True
+271.5491 	DATA 	Mouse: Left button down, pos=(1452,1231)
+271.6410 	EXP 	polygon_8: fillColor = 'black'
+271.6410 	EXP 	polygon_8: lineColor = 'black'
+271.6410 	EXP 	polygon_8: color = 'black'
+271.7842 	DATA 	Mouse:  Left button up, pos=(1452,1231)
+273.3160 	DATA 	Mouse: Left button down, pos=(767,249)
+273.3577 	EXP 	polygon_21: fillColor = 'black'
+273.3577 	EXP 	polygon_21: lineColor = 'black'
+273.3577 	EXP 	polygon_21: color = 'black'
+273.5605 	DATA 	Mouse:  Left button up, pos=(767,249)
+274.3275 	DATA 	Keypress: space
+274.3910 	EXP 	grid: autoDraw = False
+274.3910 	EXP 	polygon: autoDraw = False
+274.3910 	EXP 	polygon_2: autoDraw = False
+274.3910 	EXP 	polygon_3: autoDraw = False
+274.3910 	EXP 	polygon_4: autoDraw = False
+274.3910 	EXP 	polygon_5: autoDraw = False
+274.3910 	EXP 	polygon_6: autoDraw = False
+274.3910 	EXP 	polygon_7: autoDraw = False
+274.3910 	EXP 	polygon_8: autoDraw = False
+274.3910 	EXP 	polygon_9: autoDraw = False
+274.3910 	EXP 	polygon_10: autoDraw = False
+274.3910 	EXP 	polygon_11: autoDraw = False
+274.3910 	EXP 	polygon_12: autoDraw = False
+274.3910 	EXP 	polygon_13: autoDraw = False
+274.3910 	EXP 	polygon_14: autoDraw = False
+274.3910 	EXP 	polygon_15: autoDraw = False
+274.3910 	EXP 	polygon_16: autoDraw = False
+274.3910 	EXP 	polygon_17: autoDraw = False
+274.3910 	EXP 	polygon_18: autoDraw = False
+274.3910 	EXP 	polygon_19: autoDraw = False
+274.3910 	EXP 	polygon_20: autoDraw = False
+274.3910 	EXP 	polygon_21: autoDraw = False
+274.3910 	EXP 	polygon_22: autoDraw = False
+274.3910 	EXP 	polygon_23: autoDraw = False
+274.3910 	EXP 	polygon_24: autoDraw = False
+274.3910 	EXP 	polygon_25: autoDraw = False
+274.3910 	EXP 	rdy_txt: text = 'Press SPACE to begin the next trial.'
+274.3910 	EXP 	rdy_txt: autoDraw = True
+276.3478 	EXP 	New trial (rep=0, index=3): OrderedDict([('Running_Trial_Num', 4), ('trial_length', 2), ('rows', '6, 7'), ('correct_seq', ['polygon_3', 'polygon_7']), ('rdy_msg', 'The next trial will have 3 locations.\n\nPress SPACE to begin.')])
+276.4069 	EXP 	Imported BLS_Stimuli.xlsx as conditions, 2 conditions, 6 params
+276.4073 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+276.4078 	EXP 	New trial (rep=0, index=0): OrderedDict([('span', 2), ('trial', 4), ('stimulus', 1), ('square', 7), ('location', [-0.195, 0.195]), ('correct', 3)])
+276.4107 	DATA 	Keypress: space
+276.4264 	EXP 	rdy_txt: autoDraw = False
+276.4264 	EXP 	Square: pos = array([-0.195,  0.195])
+276.4264 	EXP 	Grid: autoDraw = True
+276.4264 	EXP 	Square: autoDraw = True
+277.8607 	EXP 	New trial (rep=0, index=1): OrderedDict([('span', 2), ('trial', 4), ('stimulus', 2), ('square', 3), ('location', [0, 0.39]), ('correct', 7)])
+277.8932 	EXP 	Grid: autoDraw = False
+277.8932 	EXP 	Square: autoDraw = False
+277.8932 	EXP 	Square: pos = array([0.  , 0.39])
+277.8932 	EXP 	Grid: autoDraw = True
+277.8932 	EXP 	Square: autoDraw = True
+279.4265 	EXP 	Grid: autoDraw = False
+279.4265 	EXP 	Square: autoDraw = False
+279.4265 	EXP 	polygon: fillColor = 'white'
+279.4265 	EXP 	polygon: lineColor = 'white'
+279.4265 	EXP 	polygon: color = 'white'
+279.4265 	EXP 	polygon_2: fillColor = 'white'
+279.4265 	EXP 	polygon_2: lineColor = 'white'
+279.4265 	EXP 	polygon_2: color = 'white'
+279.4265 	EXP 	polygon_3: fillColor = 'white'
+279.4265 	EXP 	polygon_3: lineColor = 'white'
+279.4265 	EXP 	polygon_3: color = 'white'
+279.4265 	EXP 	polygon_4: fillColor = 'white'
+279.4265 	EXP 	polygon_4: lineColor = 'white'
+279.4265 	EXP 	polygon_4: color = 'white'
+279.4265 	EXP 	polygon_5: fillColor = 'white'
+279.4265 	EXP 	polygon_5: lineColor = 'white'
+279.4265 	EXP 	polygon_5: color = 'white'
+279.4265 	EXP 	polygon_6: fillColor = 'white'
+279.4265 	EXP 	polygon_6: lineColor = 'white'
+279.4265 	EXP 	polygon_6: color = 'white'
+279.4265 	EXP 	polygon_7: fillColor = 'white'
+279.4265 	EXP 	polygon_7: lineColor = 'white'
+279.4265 	EXP 	polygon_7: color = 'white'
+279.4265 	EXP 	polygon_8: fillColor = 'white'
+279.4265 	EXP 	polygon_8: lineColor = 'white'
+279.4265 	EXP 	polygon_8: color = 'white'
+279.4265 	EXP 	polygon_9: fillColor = 'white'
+279.4265 	EXP 	polygon_9: lineColor = 'white'
+279.4265 	EXP 	polygon_9: color = 'white'
+279.4265 	EXP 	polygon_10: fillColor = 'white'
+279.4265 	EXP 	polygon_10: lineColor = 'white'
+279.4265 	EXP 	polygon_10: color = 'white'
+279.4265 	EXP 	polygon_11: fillColor = 'white'
+279.4265 	EXP 	polygon_11: lineColor = 'white'
+279.4265 	EXP 	polygon_11: color = 'white'
+279.4265 	EXP 	polygon_12: fillColor = 'white'
+279.4265 	EXP 	polygon_12: lineColor = 'white'
+279.4265 	EXP 	polygon_12: color = 'white'
+279.4265 	EXP 	polygon_13: fillColor = 'white'
+279.4265 	EXP 	polygon_13: lineColor = 'white'
+279.4265 	EXP 	polygon_13: color = 'white'
+279.4265 	EXP 	polygon_14: fillColor = 'white'
+279.4265 	EXP 	polygon_14: lineColor = 'white'
+279.4265 	EXP 	polygon_14: color = 'white'
+279.4265 	EXP 	polygon_15: fillColor = 'white'
+279.4265 	EXP 	polygon_15: lineColor = 'white'
+279.4265 	EXP 	polygon_15: color = 'white'
+279.4265 	EXP 	polygon_16: fillColor = 'white'
+279.4265 	EXP 	polygon_16: lineColor = 'white'
+279.4265 	EXP 	polygon_16: color = 'white'
+279.4265 	EXP 	polygon_17: fillColor = 'white'
+279.4265 	EXP 	polygon_17: lineColor = 'white'
+279.4265 	EXP 	polygon_17: color = 'white'
+279.4265 	EXP 	polygon_18: fillColor = 'white'
+279.4265 	EXP 	polygon_18: lineColor = 'white'
+279.4265 	EXP 	polygon_18: color = 'white'
+279.4265 	EXP 	polygon_19: fillColor = 'white'
+279.4265 	EXP 	polygon_19: lineColor = 'white'
+279.4265 	EXP 	polygon_19: color = 'white'
+279.4265 	EXP 	polygon_20: fillColor = 'white'
+279.4265 	EXP 	polygon_20: lineColor = 'white'
+279.4265 	EXP 	polygon_20: color = 'white'
+279.4265 	EXP 	polygon_21: fillColor = 'white'
+279.4265 	EXP 	polygon_21: lineColor = 'white'
+279.4265 	EXP 	polygon_21: color = 'white'
+279.4265 	EXP 	polygon_22: fillColor = 'white'
+279.4265 	EXP 	polygon_22: lineColor = 'white'
+279.4265 	EXP 	polygon_22: color = 'white'
+279.4265 	EXP 	polygon_23: fillColor = 'white'
+279.4265 	EXP 	polygon_23: lineColor = 'white'
+279.4265 	EXP 	polygon_23: color = 'white'
+279.4265 	EXP 	polygon_24: fillColor = 'white'
+279.4265 	EXP 	polygon_24: lineColor = 'white'
+279.4265 	EXP 	polygon_24: color = 'white'
+279.4265 	EXP 	polygon_25: fillColor = 'white'
+279.4265 	EXP 	polygon_25: lineColor = 'white'
+279.4265 	EXP 	polygon_25: color = 'white'
+279.4265 	EXP 	grid: autoDraw = True
+279.4265 	EXP 	polygon: autoDraw = True
+279.4265 	EXP 	polygon_2: autoDraw = True
+279.4265 	EXP 	polygon_3: autoDraw = True
+279.4265 	EXP 	polygon_4: autoDraw = True
+279.4265 	EXP 	polygon_5: autoDraw = True
+279.4265 	EXP 	polygon_6: autoDraw = True
+279.4265 	EXP 	polygon_7: autoDraw = True
+279.4265 	EXP 	polygon_8: autoDraw = True
+279.4265 	EXP 	polygon_9: autoDraw = True
+279.4265 	EXP 	polygon_10: autoDraw = True
+279.4265 	EXP 	polygon_11: autoDraw = True
+279.4265 	EXP 	polygon_12: autoDraw = True
+279.4265 	EXP 	polygon_13: autoDraw = True
+279.4265 	EXP 	polygon_14: autoDraw = True
+279.4265 	EXP 	polygon_15: autoDraw = True
+279.4265 	EXP 	polygon_16: autoDraw = True
+279.4265 	EXP 	polygon_17: autoDraw = True
+279.4265 	EXP 	polygon_18: autoDraw = True
+279.4265 	EXP 	polygon_19: autoDraw = True
+279.4265 	EXP 	polygon_20: autoDraw = True
+279.4265 	EXP 	polygon_21: autoDraw = True
+279.4265 	EXP 	polygon_22: autoDraw = True
+279.4265 	EXP 	polygon_23: autoDraw = True
+279.4265 	EXP 	polygon_24: autoDraw = True
+279.4265 	EXP 	polygon_25: autoDraw = True
+279.9504 	DATA 	Mouse: Left button down, pos=(1085,1262)
+280.0072 	EXP 	polygon_7: fillColor = 'black'
+280.0072 	EXP 	polygon_7: lineColor = 'black'
+280.0072 	EXP 	polygon_7: color = 'black'
+280.2285 	DATA 	Mouse:  Left button up, pos=(1085,1262)
+280.9692 	DATA 	Mouse: Left button down, pos=(1363,1580)
+281.0408 	EXP 	polygon_3: fillColor = 'black'
+281.0408 	EXP 	polygon_3: lineColor = 'black'
+281.0408 	EXP 	polygon_3: color = 'black'
+281.1763 	DATA 	Mouse:  Left button up, pos=(1363,1580)
+281.7104 	DATA 	Keypress: space
+281.8072 	EXP 	grid: autoDraw = False
+281.8072 	EXP 	polygon: autoDraw = False
+281.8072 	EXP 	polygon_2: autoDraw = False
+281.8072 	EXP 	polygon_3: autoDraw = False
+281.8072 	EXP 	polygon_4: autoDraw = False
+281.8072 	EXP 	polygon_5: autoDraw = False
+281.8072 	EXP 	polygon_6: autoDraw = False
+281.8072 	EXP 	polygon_7: autoDraw = False
+281.8072 	EXP 	polygon_8: autoDraw = False
+281.8072 	EXP 	polygon_9: autoDraw = False
+281.8072 	EXP 	polygon_10: autoDraw = False
+281.8072 	EXP 	polygon_11: autoDraw = False
+281.8072 	EXP 	polygon_12: autoDraw = False
+281.8072 	EXP 	polygon_13: autoDraw = False
+281.8072 	EXP 	polygon_14: autoDraw = False
+281.8072 	EXP 	polygon_15: autoDraw = False
+281.8072 	EXP 	polygon_16: autoDraw = False
+281.8072 	EXP 	polygon_17: autoDraw = False
+281.8072 	EXP 	polygon_18: autoDraw = False
+281.8072 	EXP 	polygon_19: autoDraw = False
+281.8072 	EXP 	polygon_20: autoDraw = False
+281.8072 	EXP 	polygon_21: autoDraw = False
+281.8072 	EXP 	polygon_22: autoDraw = False
+281.8072 	EXP 	polygon_23: autoDraw = False
+281.8072 	EXP 	polygon_24: autoDraw = False
+281.8072 	EXP 	polygon_25: autoDraw = False
+281.8072 	EXP 	thx_text: autoDraw = True
+284.4147 	DATA 	Keypress: space
+284.4264 	EXP 	thx_text: autoDraw = False
+284.5899 	EXP 	window1: mouseVisible = True

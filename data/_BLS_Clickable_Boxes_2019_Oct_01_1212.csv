@@ -1,0 +1,3 @@
+﻿Running_Trial_Num,trial_length,rows,resp_row,span,trial,stimulus,square,location,correct,correct_seq,Trials.thisRepN,Trials.thisTrialN,Trials.thisN,Trials.thisIndex,Stimuli.thisRepN,Stimuli.thisTrialN,Stimuli.thisN,Stimuli.thisIndex,participant,session,date,expName,psychopyVersion,frameRate,
+1,2,"0, 1",0,2,1,1,10,"[0.39, 0.195]",18,"['polygon_18', 'polygon_10']",0,0,0,0,0,0,0,0,,001,2019_Oct_01_1212,BLS_Clickable_Boxes,3.2.3,59.88246270237111,
+1,2,"0, 1",0,2,1,2,18,"[0, -0.195]",10,"['polygon_19', 'polygon_2']",0,0,0,0,0,1,1,1,,001,2019_Oct_01_1212,BLS_Clickable_Boxes,3.2.3,59.88246270237111,

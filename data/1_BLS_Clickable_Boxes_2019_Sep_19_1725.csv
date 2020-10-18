@@ -1,0 +1,2 @@
+﻿resp_locations.thisRepN,resp_locations.thisTrialN,resp_locations.thisN,resp_locations.thisIndex,span,trial,correct_seq,clickSequence,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,mouse.time,mouse.clicked_name,seq.corr,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,"['polygon_18', 'polygon_10']","[-0.027777777777777776, 0.37722222222222224]","[-0.15666666666666668, 0.17666666666666667]","[1, 1]","[0, 0]","[0, 0]","[2.4073941000006016, 4.040452400000504]","['polygon_18', 'polygon_10']",1,,,,,,,

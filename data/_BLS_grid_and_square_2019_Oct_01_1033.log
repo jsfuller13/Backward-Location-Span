@@ -1,0 +1,30 @@
+13.2748 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [2880, 1800]. Using actual size
+14.2222 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000195ADF936A0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000195ADF203C8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.2222 	EXP 	window1: recordFrameIntervals = False
+14.3883 	EXP 	window1: recordFrameIntervals = True
+14.5718 	EXP 	window1: recordFrameIntervals = False
+14.8028 	EXP 	Created Grid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Blank Grid.jpg', interpolate=True, mask=None, maskParams=None, name='Grid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+14.8045 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([255.,   0.,   0.]), fillColorSpace='rgb', fillRGB=array([255.,   0.,   0.]), interpolate=True, lineColor=array([255.,   0.,   0.]), lineColorSpace='rgb', lineRGB=array([255.,   0.,   0.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+15.1032 	EXP 	Created rdy_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='rdy_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.1328 	EXP 	Imported BLS_Trial_Picker.xlsx as conditions, 32 conditions, 3 params
+15.1331 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+15.1333 	EXP 	New trial (rep=0, index=0): OrderedDict([('Running_Trial_Num', 1), ('trial_length', 2), ('rows', '0, 1')])
+15.1542 	EXP 	Imported BLS_Trial_List.xlsx as conditions, 2 conditions, 6 params
+15.1544 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+15.1546 	EXP 	New trial (rep=0, index=0): OrderedDict([('span', 2), ('trial', 1), ('stimulus', 1), ('square', 10), ('location', [0.39, 0.195]), ('correct', 18)])
+15.2452 	DATA 	Mouse: Left button down, pos=(1949,251)
+15.2453 	DATA 	Mouse:  Left button up, pos=(1949,251)
+15.2885 	EXP 	polygon: pos = array([0.39 , 0.195])
+15.2885 	EXP 	Grid: autoDraw = True
+15.2885 	EXP 	polygon: autoDraw = True
+16.6056 	EXP 	New trial (rep=0, index=1): OrderedDict([('span', 2), ('trial', 1), ('stimulus', 2), ('square', 18), ('location', [0, -0.195]), ('correct', 10)])
+16.6214 	EXP 	Grid: autoDraw = False
+16.6214 	EXP 	polygon: autoDraw = False
+16.6214 	EXP 	polygon: pos = array([ 0.   , -0.195])
+16.6214 	EXP 	Grid: autoDraw = True
+16.6214 	EXP 	polygon: autoDraw = True
+18.1217 	EXP 	Grid: autoDraw = False
+18.1217 	EXP 	polygon: autoDraw = False
+18.1217 	EXP 	rdy_msg: autoDraw = True
+19.7769 	DATA 	Keypress: escape
+19.9962 	EXP 	window1: mouseVisible = True
